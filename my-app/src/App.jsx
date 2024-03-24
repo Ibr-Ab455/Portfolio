@@ -1,3 +1,6 @@
+// eslint-disable-next-line no-unused-vars
+import React from "react"
+import Navbar from "./components/Navbar"
 
 
 function App() {
@@ -5,9 +8,9 @@ function App() {
 
   return (
     <>
-     <h1 className="text-3xl font-bold underline bg-red-500">
-      Hello world!
-    </h1>
+     <div>
+     <Navbar/>
+     </div>
     </>
   )
 }
