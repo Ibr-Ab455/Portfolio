@@ -1,12 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 
-function Navbar() {
+function NavbarDash() {
   return (
-    <div>
-        
-    </div>
+    <div>NavbarDash</div>
   )
 }
 
-export default Navbar
+export default NavbarDash
