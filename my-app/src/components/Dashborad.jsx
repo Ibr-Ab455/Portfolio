@@ -7,7 +7,7 @@ function Dashborad() {
   return (
     <div className='min-h-screen flex flex-col md:flex-row  relative w-full'>
       <DashSide/>
-      <div className='w-[70%]'>
+      <div className='w-full'>
         <NavbarDash/>
       </div>
     </div>
