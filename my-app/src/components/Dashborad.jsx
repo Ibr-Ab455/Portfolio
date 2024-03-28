@@ -2,6 +2,7 @@
 import React from 'react'
 import DashSide from './SideDashboard'
 import NavbarDash from './NavbarDash'
+import About from './About'
 
 function Dashborad() {
   return (
@@ -9,6 +10,7 @@ function Dashborad() {
       <DashSide/>
       <div className='w-full'>
         <NavbarDash/>
+        <About/>
       </div>
     </div>
   )

@@ -1,11 +1,14 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react'
 import Ibrahim from '../../src/assets/ibrahim_ali.png'
 import { FaInstagram, FaGithub, FaLinkedin, FaHome } from "react-icons/fa";
 import { FiUser } from "react-icons/fi";
 import { GoProject } from "react-icons/go";
 
+
 function SideDashboard() {
+
+  
+
   return (
     <div className='h-[100vh] w-[25%] flex flex-col bg-[#191919] p-4'>
       <div className='flex flex-col'>
@@ -29,8 +32,11 @@ function SideDashboard() {
       {/*  */}
       <div className='flex flex-col space-y-3 mt-6 ml-2'>
        <div className='flex space-x-2'>
-        <FaHome className='text-2xl text-gray-500 cursor-pointer'/>
+      
+       <FaHome className='text-2xl text-gray-500 cursor-pointer'/>
         <h2 className='text-gray-500 cursor-pointer'>Home</h2>
+    
+
        </div>
 
        <div className='flex space-x-2'>
