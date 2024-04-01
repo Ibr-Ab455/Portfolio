@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import { Typewriter,  } from 'react-simple-typewriter'
+import { Link } from 'react-router-dom';
 
 function NavbarDash() {
 
@@ -23,7 +24,10 @@ function NavbarDash() {
         </span>
        </h2>
         <p className='flex flex-col pt-2 text-white'>Freelancer providing services for programming and design content needs.
-          <span className='text-[#1F75FE] text-xl'>Join Me!</span>
+         <Link to="https://github.com/Ibr-Ab455">
+         <span className='text-[#1F75FE] text-xl'>Join Me!</span>
+         </Link>
+         
         </p>
        <div>
        </div>

@@ -3,7 +3,7 @@ import Ibrahim from '../../src/assets/ibrahim_ali.png'
 import { FaInstagram, FaGithub, FaLinkedin, FaHome } from "react-icons/fa";
 import { FiUser } from "react-icons/fi";
 import { GoProject } from "react-icons/go";
-
+import { Link } from 'react-router-dom'
 
 function SideDashboard() {
 
@@ -40,8 +40,11 @@ function SideDashboard() {
        </div>
 
        <div className='flex space-x-2'>
+        <Link to="/about">
         <FiUser className='text-2xl text-gray-500 cursor-pointer'/>
         <h2 className='text-gray-500 cursor-pointer'>About Me</h2>
+        </Link>
+        
        </div>
 
        <div className='flex space-x-2'>
