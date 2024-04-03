@@ -7,10 +7,8 @@ import { Link } from 'react-router-dom'
 
 function SideDashboard() {
 
-  
-
   return (
-    <div className='h-[100vh] w-[25%] flex flex-col bg-[#191919] p-4'>
+    <div className='h-[100vh] w-[25%] fixed flex  flex-col bg-[#191919] p-4'>
       <div className='flex flex-col'>
         <img src={Ibrahim} alt='cade' className=' w-60 h-60 rounded-full border-2 border-[#1F75FE]'/>
         <h1 className='text-2xl pl-6 text-white py-4'>Ibrahim Ahmed</h1>
